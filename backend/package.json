@@ -1,0 +1,16 @@
+{
+  "name": "advance-react-back-end",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/banirezaie/advance-react",
+  "author": "Bani",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
