@@ -1,10 +1,12 @@
-const DataApi = ()=>{
-   let  getArticles = ()=>{
 
-    }
-    let getAuthors = ()=>{
 
-    }
-}
+// const DataApi = ()=>{
+//    let  getArticles = ()=>{
 
-export default DataApi;
+//     }
+//     let getAuthors = ()=>{
+
+//     }
+// }
+
+// export default DataApi;
