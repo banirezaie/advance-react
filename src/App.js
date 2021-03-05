@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from "./Navbar";
 import Home from './Home';
+import State from './State';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
     <Navbar />
     <div><hr/></div>
     <Home />
+    <State />
     </div>
   );
 }
