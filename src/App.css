@@ -13,3 +13,14 @@ body{
   display: flex;
   justify-content: space-around;
 }
+
+.post{
+  border: 2px solid brown;
+  padding: 1.1rem;
+  margin: 1.1rem;
+}
+
+.blog{
+  display: flex;
+  justify-content: space-evenly;
+}
