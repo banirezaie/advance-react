@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import BlogList from './BlogList';
 
 
@@ -10,10 +10,14 @@ const Blog = () => {
         {title: 'fourth blog is she/her', body: 'lorem ipsum...', author: 'mario', id: 4}
     ])
 
-const handleDelete = (index)=>{
-    const newBlogs = blogs.filter(blog => blogs.indexOf(blog) !== index)
-    setBlogs(newBlogs)
-}
+    const handleDelete = (index)=>{
+        const newBlogs = blogs.filter(blog => blogs.indexOf(blog) !== index)
+        setBlogs(newBlogs)
+    }
+
+    useEffect(()=>{
+        console.log('use effect run')
+    }, [blogs])
 
 
     return ( 
