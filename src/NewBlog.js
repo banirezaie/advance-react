@@ -14,7 +14,7 @@ const NewBlog = () => {
             return res.json();
         })
         .then(data => {
-            setBlog(data);
+            setBlog(data); 
             setPending(false)
             setError(null)
         })
