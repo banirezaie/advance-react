@@ -4,7 +4,9 @@
 }
 .info{
     display: inline-block;
-    margin-left: 20px;
+   padding: 20px;
+   margin-right: 10px;
+    border-right: 1px solid black ;
 }
 .card-container{
     display: inline-block;

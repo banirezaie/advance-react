@@ -16,7 +16,7 @@ const Blog = () => {
     }
 
     useEffect(()=>{
-        console.log('use effect run')
+      // console.log('use effect run')
     }, [blogs])
 
 
