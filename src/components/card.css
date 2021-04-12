@@ -1,0 +1,11 @@
+.profile-image{
+    width: 100px;
+    height: 100px;
+}
+.info{
+    display: inline-block;
+    margin-left: 20px;
+}
+.card-container{
+    display: inline-block;
+}

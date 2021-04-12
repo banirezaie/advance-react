@@ -5,11 +5,15 @@ import NewBlog from './NewBlog';
 import { Route } from 'react-router-dom';
 import IncrementButton from "./components/IncrementButton";
 import AnotherButton from "./components/AnotherButton";
+import CardList from "./components/CardList";
 
 function App() {
   return (
     <div className='App'>
       <Navbar />
+      <hr />
+      <CardList />
+      <hr />
       <div>
         <AnotherButton incrementAmount={1} initialAmount={0} />
         <hr />
