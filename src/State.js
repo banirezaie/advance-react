@@ -5,7 +5,7 @@ const State = () => {
   const [age, setAge] = useState(25);
 
   useEffect(()=>{
-    console.log(name, age)
+    // console.log(name, age)
   },[name, age])
 
   return (

@@ -1,0 +1,13 @@
+.profile-image{
+    width: 100px;
+    height: 100px;
+}
+.info{
+    display: inline-block;
+   padding: 20px;
+   margin-right: 10px;
+    border-right: 1px solid black ;
+}
+.card-container{
+    display: inline-block;
+}
