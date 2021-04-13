@@ -10,6 +10,7 @@ export class Search extends Component {
     const apiData = await axios(
       `https://api.github.com/users/${this.state.userName}`
     );
+      this.props.addNewUser(apiData.data);
     console.log(apiData.data);
     this.setState({ userName: "" });
   };
